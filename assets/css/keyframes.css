@@ -1,0 +1,17 @@
+@-webkit-keyframes slideInDown { 
+    from { top: calc(var(--gap) - (var(--gap) * 28)); opacity: 0; } 
+    to { top: calc(var(--gap) * 6); opacity: 1; } 
+}
+@keyframes slideInDown { 
+    from { top: calc(var(--gap) - (var(--gap) * 28)); opacity: 0; } 
+    to { top: calc(var(--gap) * 6); opacity: 1; } 
+}
+
+@-webkit-keyframes slideOutUp { 
+    from { top: calc(var(--gap) * 6); opacity: 1; } 
+    to { top: calc(var(--gap) - (var(--gap) * 28)); opacity: 0; } 
+}
+@keyframes slideOutUp { 
+    from { top: calc(var(--gap) * 6); opacity: 1; } 
+    to { top: calc(var(--gap) - (var(--gap) * 28));  opacity: 0; } 
+}
