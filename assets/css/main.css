@@ -19,9 +19,6 @@
     --radius: 0.875rem;
     --transitionTime: 550ms;
 
-    --img__url_mission: url("../../images/bg__mission.webp");
-    --img__url_icon-star: url("../../images/icon__star.png");
-
     --animation__slideInDown: slideInDown 1.5s both;
     --animation__slideOutUp: slideOutUp 1.5s both; 
 }

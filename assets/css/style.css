@@ -13,7 +13,7 @@ body { font-family: var(--font); color: var(--color__black); font-weight: 400; f
 
 [data-bg-trans="mission"] { background-color: var(--color__trans_black-01); }
 
-[data-bg-img="mission"] { background-image: var(--img__url_mission); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; }
+[data-bg-img="mission"] { background-image: url("../../images/bg__mission.webp"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; }
 
 [data-txt-color="primary"],
 [data-txt-color="primary"]:visited { color: var(--color__primary); } 
@@ -126,7 +126,7 @@ body { font-family: var(--font); color: var(--color__black); font-weight: 400; f
 #mission { height: calc(100vh - (var(--gap) * 6)); min-height: calc(var(--gap) * 34); }
 #mission .section__title { gap: calc(var(--gap) * 1.25); }
 #mission .section__title::before,
-#mission .section__title::after { content: ''; display: block; background-image: var(--img__url_icon-star); background-repeat: no-repeat; background-size: cover; width: var(--gap); height: var(--gap);}
+#mission .section__title::after { content: ''; display: block; background-image: url("../../images/icon__star.png"); background-repeat: no-repeat; background-size: cover; width: var(--gap); height: var(--gap);}
 
 #team .row { gap: calc(var(--gap) * 6); }
 .team__container { gap: calc(var(--gap) * 4); max-width: calc(var(--width) / 1.45); }
